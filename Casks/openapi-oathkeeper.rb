@@ -13,17 +13,17 @@ cask "openapi-oathkeeper" do
 
   on_macos do
     url "https://github.com/cerberauth/openapi-oathkeeper/releases/download/v#{version}/openapi-oathkeeper_Darwin_all.tar.gz"
-    sha256 "5a53fd660180dfc3a45785341712cee52f5b2c9d5953fa76e3d105dc04837992"
+    sha256 "452321d59e14cc1e3d18a6a20d29abf7b905242d2ee75071fd80e93fcfa0830b"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/cerberauth/openapi-oathkeeper/releases/download/v#{version}/openapi-oathkeeper_Linux_x86_64.tar.gz"
-      sha256 "bf4b295e1a50a768876f661f3e0fb80cbfe1b1dde1052559a63ccea65733ca44"
+      sha256 "1153d7b33c5867a10ebae575da7a8fc9f69285d38cfd40661b1aad314745b403"
     end
     on_arm do
       url "https://github.com/cerberauth/openapi-oathkeeper/releases/download/v#{version}/openapi-oathkeeper_Linux_arm64.tar.gz"
-      sha256 "ac12d8dc11af0635355375e38954143ed244b154149b518392b83fbeb176feb6"
+      sha256 "6159bf62a16706e83116154ae0145047acb1e37a08bddb70b527c2fa93a6d22c"
     end
   end
 
