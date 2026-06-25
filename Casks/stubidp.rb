@@ -4,22 +4,22 @@ cask "stubidp" do
 
   on_macos do
     on_intel do
-      sha256 "43de0f2738ffeb098b1aeea05513896012c63ee0fa64687d8cbb5da9dc7d8ad9"
+      sha256 "ad8a84b155d0f3bfbf1bcdf45f165b45408391e9a77e968dc0cf5c269050b5b2"
       url "https://github.com/cerberauth/stubidp/releases/download/v#{version}/stubidp_Darwin_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "e2be95dc08e2dc007e0af5fbc8ebcebcebf357f4847dd5db714eb34a169a0587"
+      sha256 "b9b995e6d2c50a8416433feb37c3fb54d1724d5e465b34f869a1dd57284502d0"
       url "https://github.com/cerberauth/stubidp/releases/download/v#{version}/stubidp_Darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "42b744cd8cf8e188de8e2ca957152393487a7729e221e0968e0a3930e9ee2534"
+      sha256 "feaece0d08708f9fe3a12ddb8328a7dff189782fbfc522e34e5e199dec5d2d0c"
       url "https://github.com/cerberauth/stubidp/releases/download/v#{version}/stubidp_Linux_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "e1243154ffc5e6865f55d48321983c6f179d7175d72251aaa00764e83dd72939"
+      sha256 "22e93e1392993a6afb21fa667045047a68013f6bb8cd6a8352ea5df97e926c6b"
       url "https://github.com/cerberauth/stubidp/releases/download/v#{version}/stubidp_Linux_arm64.tar.gz"
     end
   end
