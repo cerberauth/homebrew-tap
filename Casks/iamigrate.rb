@@ -3,16 +3,16 @@ cask "iamigrate" do
   version "0.1.0"
 
   on_macos do
-    sha256 "3fd6a7a3892b621dbe500d5007163a0ed60d0970def9c5b6c68ce73628f2d550"
+    sha256 "d8421cb460a331466b66b0fab5c2c2b939abd57fe0d6540aee1404e50491cf93"
     url "https://github.com/cerberauth/iamigrate/releases/download/v#{version}/iamigrate_Darwin_all.tar.gz"
   end
   on_linux do
     on_arm do
-      sha256 "97e5feab27be7008b627f6c4d6c00b1f92702189ef5863c91d4b1ade71664bed"
+      sha256 "d3648f0fa0e38fb0cfe199258428628996b7e97801e29bf22b7ca30744afb90b"
       url "https://github.com/cerberauth/iamigrate/releases/download/v#{version}/iamigrate_Linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "342804a5c1094fcb37ce077058fda12858d174b68c016728f3f5771c5873ee7a"
+      sha256 "9fdd400e48688dbf223749bf50c0e0e36d7be488a9991c555c9eec71168db47a"
       url "https://github.com/cerberauth/iamigrate/releases/download/v#{version}/iamigrate_Linux_x86_64.tar.gz"
     end
   end
